@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>http://yourforumhere.com/index.php</string>
+		<key>Key</key>
+		<string>forumUrl</string>
+		<key>Title</key>
+		<string>Forum URL</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>unread</string>
+		<key>Key</key>
+		<string>mode</string>
+		<key>Title</key>
+		<string>Mode</string>
+		<key>Titles</key>
+		<array>
+			<string>Unread</string>
+			<string>Unread Replies</string>
+		</array>
+		<key>Type</key>
+		<string>RadioButtons</string>
+		<key>Values</key>
+		<array>
+			<string>unread</string>
+			<string>unreadreplies</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>ignoredTopics</string>
+		<key>Title</key>
+		<string>Topics to ignore</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>changeFocusSingle</string>
+		<key>Title</key>
+		<string>Change Tab Focus (Single)</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>changeFocusAll</string>
+		<key>Title</key>
+		<string>Change Tab Focus (All)</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+</array>
+</plist>

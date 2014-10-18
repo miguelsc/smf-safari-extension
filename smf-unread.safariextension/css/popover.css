@@ -1,0 +1,58 @@
+body {
+  margin: 3px;
+  font-size: 12px;
+}
+
+hr {
+  margin: 4px;
+}
+
+.error {
+  color: white;
+  background-color: rgb(160, 15, 24);
+}
+
+.header, .topic, .error {
+  padding: 3px 7px;
+  border-radius: 3px; 
+}
+
+.header:hover, .topic:hover {
+  cursor: pointer; 
+}
+
+.header {
+  background-color: rgb(170, 25, 24);
+  /*background-color: rgb(45, 135, 230);*/
+  color: white;
+}
+
+.header:hover {
+  background-color: rgb(160, 15, 24);
+  /*background-color: rgb(45, 125, 210);*/
+}
+
+.topic {
+  background-color: rgb(235, 235, 235);
+  background-color: rgba(235, 235, 235, 0.15);
+  margin-bottom: 5px;
+}
+
+.topic:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(20, 20, 20);
+}
+
+.status {
+  width: 120px;
+}
+
+.open-all {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  width: 120px;
+  top: 3px;
+  right: 3px;
+  padding-top: 12px;
+}
